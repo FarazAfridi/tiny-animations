@@ -1,0 +1,95 @@
+.animation-container {
+    display: flex;
+    color: white;
+    background: radial-gradient(circle, rgba(206,2,189,1) 0%, rgba(75,6,193,1) )
+}
+.animation-box {
+    width: 50%;
+}
+.animation-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.animation-color {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.text-box {
+    line-height: 1;
+    font-size: 5rem;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.text-box2 {
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 1.5rem;
+}
+.button {
+    background-color: #21D9D5;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to bottom, #00bda0, #047abd);
+}
+.button-div {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+#blue-light {
+    display: none;
+}
+
+@media only screen and (max-width: 1050px) {
+    .animation-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .animation-box {
+        width: 100%;
+    }
+    .animation-color{
+        position: relative; 
+        bottom: 430px;
+    }
+    .animation-text{
+        position: relative;
+        top: 400px;
+    }
+    .text-box{
+        margin: 20px 0 0 0;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .text-box2{
+        text-align: center;
+        margin: 30px 0 0 0;
+    }
+    .button-div {
+        text-align: center;
+        margin: 30px 0 0 0;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1050px) {
+    .animation-color{
+        position: relative; 
+        bottom: 300px;
+    }
+    .animation-text{
+        position: relative;
+        top: 550px;
+    }
+   }
+  
